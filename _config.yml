@@ -83,7 +83,7 @@ author:
   name             : "Koeagile Mogase Bezuidt"
   avatar           : "profile.png"
   bio              : "Research Scientist: Bioinformatics and Microbial Ecology"
-  location         : "University of Pretoria, South Africa"
+  location         : #"University of Pretoria, South Africa"
   employer         : "University of Pretoria, South Africa"
   googlescholar    : "https://scholar.google.com/citations?user=kXaosEYAAAAJ&hl=en "
   email            :
@@ -215,8 +215,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -233,7 +233,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -242,7 +242,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
