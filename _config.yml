@@ -14,7 +14,7 @@ description              : &description "Research Scientist: Bioinformatics - Mi
 url                      : ""
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SAmicrobiomes/samicrobiomes.github.io"
-teaser                   : "OliverProfilePic.jpg"
+teaser                   : #"OliverProfilePic.jpg"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Koeagile Mogase Bezuidt"
-  avatar           : "profile.png"
+  avatar           : "OliverProfilePic.jpg"
   bio              : "Research Scientist: Bioinformatics and Microbial Ecology"
   location         : #"University of Pretoria, South Africa"
   employer         : "University of Pretoria, South Africa"
